@@ -45,11 +45,10 @@ end
 
 puts multiple([1,4,1,2,6], 3)
 
-def multiply(arr, n)
-  my_number []
-  arr.each do |num|
-    my_number << num * n 
-  end
+def multiple(arr, n)
+  my_number = []
+  arr.each { |num| my_number << num * n }
+  my_number
 end
 
 puts multiple([1,4,1,2,6], 3)
